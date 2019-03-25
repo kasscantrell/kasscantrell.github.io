@@ -15,7 +15,7 @@
 
 html, body
 {
-	background-image: url(br_paper.png);
+	background-image: url("br_paper.png");
 }
 
 body > header > img 
@@ -93,6 +93,7 @@ footer p ul
 header > section > img
 {
 	transform:rotateX(30deg);
+	filter:hue-rotate(90deg);
 }
 
 #pageNav2
