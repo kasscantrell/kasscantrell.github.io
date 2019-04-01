@@ -30,7 +30,7 @@ body
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
 }
-section#sheet img
+section#sheet
 {
 	-webkit-flex: 3 1 301px;
 	flex: 3 1 301px;
