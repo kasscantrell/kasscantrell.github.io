@@ -30,7 +30,7 @@ body
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
 }
-section img
+section#sheet img
 {
 	-webkit-flex: 3 1 301px;
 	flex: 3 1 301px;
@@ -50,19 +50,19 @@ article
 */
 @media only screen and (max-width: 480px) {
 	img.panel
-		{
-			width: 100%;
-		}
-	nav ul li /*number 12 in book*/
-		{
-			-webkit-order: 99;
-			order: 99;
-		}
+	{
+		width: 100%;
+	}
+	nav.horizontal /*number 12 in book*/
+	{
+		-webkit-order: 99;
+		order: 99;
+	}
 }
 body > footer
 {
-	-webkitp-order: 100;
-	order:100;
+	-webkit-order: 100;
+	order: 100;
 }
 
 
@@ -79,6 +79,7 @@ body > footer
 		display: flex;
 		-webkit-flex-flow: row no-wrap;
 		flex-flow: row no-wrap;
+		height: 40px;
 	}
 	nav ul li
 	{

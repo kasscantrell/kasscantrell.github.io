@@ -81,3 +81,7 @@ div[class^='column']
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
