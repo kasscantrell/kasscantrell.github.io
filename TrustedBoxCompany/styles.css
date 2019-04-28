@@ -1,0 +1,146 @@
+﻿/* 
+         
+         Filename: styles
+		 
+		 nav li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border: 1px solid black;
+	display: inline;
+	width: 60%;
+}
+      
+         Author:   Kassidy Cantrell
+         Date:     4/24/19
+         
+ */
+
+/* reset styles */
+html {font-family: 'Ranga', serif;
+   font-size: 14px;
+   height:100%;
+}
+article, aside, body, div, footer, header, h1, h2, h3, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+  font-family: 'Lora', serif;
+ 
+}
+/* body and page container (my own styles) */
+
+header h1 {
+	font-size: 2.5em;
+	font-variant: small-caps;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+nav li {
+	padding: 5px 10px 5px 10px;
+	color: rgb(104, 66, 36);
+	list-style-type: none;
+	border-top-style: solid;
+	border-right-style: dotted;
+    border-bottom-style: solid;
+    border-left-style: dotted;   
+    display: inline;
+	
+}
+nav a {
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #111;
+	color: white;
+}
+
+legend {
+	background-color: #be9d49;
+	color: white;
+	font-size: 0.9em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 33%;
+}
+
+
+/* body and page container (as per directed in the instructions)*/
+
+body {
+	background-color: #a58855;
+	min-width: 320px;
+	max-width: 1020px; 
+}
+
+.container {
+	background-image: url("download4.jpg");
+	margin: auto;
+	width: 75%;
+	text-align: center;
+	border-radius: 25px;
+}
+
+article, .hoursInfo {
+	background-color: #d1b2c1;
+	padding: 10px;
+}
+
+table, tr, th {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.schedule {
+	margin: auto;
+	width: 20%;
+}
+
+
+
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+
+table.schedule thead {
+	background-color: #70380f;
+	color:  #f9e2d2;
+}
+
+.brown {
+	background-color: #70380f;
+	color:  #f9e2d2;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+@media only screen and (max-width: 545px) {
+	
+	input, label {
+		display:-webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
+}

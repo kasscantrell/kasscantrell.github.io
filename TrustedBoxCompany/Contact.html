@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="container">
+	<head>
+		<title>Trusted Box Company - Home</title>
+		<!--
+		Author: Kassidy Cantrell
+		Date: 4/24/19
+		
+		-->
+	    <script src="Java.js"></script>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="styles.css" media="all">
+		<link rel="stylesheet" href="print.css"  media="print">
+	</head>
+	<body id="contactpage">
+		<div>
+			<header>
+				<img src="box.png" width="300px" alt="Trusted Box Company">
+				<h1>Trusted Box Company</h1>
+			</header>
+		</div>
+		
+		<nav>
+			<ul>
+				<li><a href="Home.html">Home Page</a></li>
+				<li><a href="Hours.html">Hours Page</a></li>
+				<li><a href="Contact.html">Contact Page</a></li>
+				<li><a href="">Location</a></li>
+			</ul>
+		</nav>
+		<div>
+			<article>
+				<h2>Contact Us</h2>
+				<form id="info" action="http://www.example/sb/payment" method="post" >
+					<fieldset>
+						<legend>Customer Information</legend>
+						<label for="fname">First Name</label>
+						<input name="firstname" id="fname" type="text" required/> </br>
+						<label for="lname">Last Name</label>
+						<input name="lastname" id="lname" type="text" required/> </br>
+						<label for="phone">Phone Number</label>
+						<input name="phonenumber" id="phone" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required/> </br>
+						<label for="email">E-mail</label>
+						<input name="email" id="email" type="email" required/>	 </br>
+					</fieldset>
+					<fieldset>
+						<legend>Tell us more about what it is you're trying to reach us for</legend>
+						<label for="selection">How did you hear about us?</label>
+						<select name="order" size="4" multiple required>
+							<option value="order1" selected>Internet</option>
+							<option value="order2">Friend/Family</option>
+							<option value="order3">Radio</option>
+							<option value="order4">Other</option>
+						</select>  </br>
+						<label for="message">Please type your message here</label>
+						<textarea required></textarea> </br>
+					</fieldset>
+					<input type="submit" value="Submit" />
+					<input type="reset" value="Reset" />
+				</form>
+			</article>
+		</div>	
+		<footer>
+			<p>Trusted Box Company &copy; 2019 Springfield, MO</p>
+		</footer>
+	</body>
+</html>
