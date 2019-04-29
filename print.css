@@ -1,0 +1,16 @@
+
+@page {
+	size: 8.5in 11in;
+	margin: 0.5in;
+	background-color: white;
+	color:black;
+	
+}
+
+nav.horizontal, img, footer {
+	display: none;
+}
+
+.hoursInfo {
+	margin: auto;
+}
