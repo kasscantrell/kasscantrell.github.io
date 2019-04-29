@@ -10,3 +10,7 @@
 nav.horizontal, img, footer {
 	display: none;
 }
+
+.hoursInfo {
+	margin: auto;
+}
