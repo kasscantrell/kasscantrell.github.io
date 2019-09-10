@@ -1,3 +1,9 @@
+/*
+Kassidy Cantrell
+SEC 131
+August 22, 2019
+*/
+
 @charset "utf-8";
 
 
@@ -7,28 +13,81 @@ html {
 	font-family: "Times New Roman", Times, serif;
 }
 
+body {
+	margin: 0px;
+}
+
 h1 {
-	position: absolute;
-	top: 2%;
-	left: 27%;
 	font-size: 2.5em;
-	color: black;
-	text-shadow: 2px 2px purple;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	z-index: 1;
 	font-variant: small-caps;
 }
 
-p {
-	position: relative;
-	text-align: left;
-	margin: 5px;
-	text-align: center;
+h1:first-letter {
+	font-size: 2.75em;
 }
 
-.container {
-	position: relative;
-	background-image: url("download4.jpg");
-	margin: auto;
-	width: 75%;
-	text-align: center;
-	border-radius: 25px;
+header img {
+	background-repeat: repeat-x;
 }
+
+nav a{
+	display: inline;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	margin: 0.5em; /* creates space in between nav links */
+	padding: 5px 10px;
+}
+
+nav a:hover {
+	color: lightblue;
+	background-color: black;
+}
+
+nav a:visited {
+	color: pink;
+}
+
+p {
+	text-align: center;
+	font-family: Ariel;
+	width: 20%;
+	position: relative;
+	top: 50px;
+	left: 200px;
+	font-size: 1.2em;
+}
+
+#fam {
+	float: right;
+	box-shadow: -25px -10px 6px black;
+	border-style: solid;
+	border-width: 15px;
+	position: relative;
+	top: 10px;
+}
+
+.kitty {
+	position: absolute;
+	top: 300px;
+	left: 550px;
+	border-style: ridge;
+	border-color: green;
+	border-width: 10px;
+	box-shadow: 10px -5px 6px green;
+}
+
+.dogs {
+	position: absolute;
+	top: 250px;
+	right: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Javascript Page!</title>
+            <!--
+                Author: Kassidy Cantrell
+                Date: September 2, 2019
+            -->
+        <meta charset="utf-8">  
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+		<div class="jumbotron">
+		  <h1 class="display-4">My First Javascript Page Baby!!!</h1>
+		  <p class="lead">This is my first attempt at using Bootstrap so please bare with me Kirsten!</p>
+		</div>
+		<form class="jumbotron">
+		  <div class="row">
+			<div class="col">
+			  <input type="text" class="form-control" id="fName" placeholder="First name">
+			</div>
+			<div class="col">
+			  <input type="text" class="form-control" id="lName" placeholder="Last name">
+			</div>
+		  </div>
+		</form>
+		<div>
+		  <div class="input-group-prepend">
+			<label class="input-group-text" for="inputGroupSelect01">Method of Contact</label>
+		  </div>
+		  <select class="form-control" id="inputGroupSelect01" >
+			<option selected>Choose...</option>
+			<option value="email">Email</option>
+			<option value="text">Texting</option>
+			<option value="discord">Discord</option>
+		  </select>
+		</div>
+		<!-- not quite sure how to concatenate the following so that there are spaces between fName, lName, and the option -->
+		<div id="myDiv" class="btn btn-primary" value="Subscribe" onclick="document.getElementById('myDiv').innerHTML = document.getElementById('fName').value + 
+		document.getElementById('lName').value + document.getElementById('inputGroupSelect01').value">Subscribe</div>
+		<footer>Thank you for visiting!</footer>
+    </body>
+</html>

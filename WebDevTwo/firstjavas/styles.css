@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+	Author: Kassidy Cantrell
+	Date: September 2, 2019
+	P.S.: Just 20 days til my son turns 7!!
+*/
+
+html {
+	margin-right: 80px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+
+}
+
+footer {
+	width: 100%;
+	background-color: lightgray;
+	font-size: 15px;
+	text-align: right;
+	margin-right: 10px;
+	padding: 10px;
+}
